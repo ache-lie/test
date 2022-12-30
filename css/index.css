@@ -338,6 +338,7 @@ hr:before,
 }
 #content-inner,
 #footer {
+  background: transparent !important;
   -webkit-animation: bottom-top 1s;
   -moz-animation: bottom-top 1s;
   -o-animation: bottom-top 1s;
@@ -5462,6 +5463,7 @@ blockquote.pullquote.right {
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
 [data-theme='dark'] #page-header:before {
+  background: transparent !important;
   position: absolute;
   width: 100%;
   height: 100%;
