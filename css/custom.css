@@ -6,52 +6,6 @@
   --backdrop-filter: blur(5px) saturate(150%);
 }
 
-/* 页脚与头图透明 */
-#footer {
-  background: transparent !important;
-}
-#page-header {
-  background: transparent !important;
-}
-
-/* 白天模式遮罩透明 */
-#footer::before {
-  background: transparent !important;
-}
-#page-header::before {
-  background: transparent !important;
-}
-
-/* 夜间模式遮罩透明 */
-[data-theme="dark"] #footer::before {
-  background: transparent !important;
-}
-[data-theme="dark"] #page-header::before {
-  background: transparent !important;
-}
-
-#page-header:not(.not-top-img):before {
-  /* position: absolute;
-  width: 100%;
-  height: 100%; */
-  background-color: rgba(0, 0, 0, 0);
-  /* content: ''; */
-}
-
-#page-header.nav-visible #nav {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-#page-header.nav-fixed #nav {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-#page-header.full_page #site-info {
-  position: absolute;
-  top: 43%;
-  padding: 0 0px;
-  width: 100%;
-}
 
 /* 小冰分类分类磁铁黑夜模式适配 */
 /* 一般状态 */
