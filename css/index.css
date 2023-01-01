@@ -249,13 +249,13 @@ template {
   text-shadow: 0 0 2px rgb(0, 0, 255) !important;
 }
 
-#article-container ol li:hover:before {
+/* #article-container ol li:hover:before {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg)
-}
+} */
 
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content>.card-widget.card-info {
@@ -446,6 +446,15 @@ div#archive {
   background: rgba(25, 25, 25, 0.9) !important;
   color: #ffffff;
 }
+
+#article-container.post-content h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { 
+  -webkit-animation: avatar_turn_around 1s linear infinite; 
+  -moz-animation: avatar_turn_around 1s linear infinite; 
+  -o-animation: avatar_turn_around 1s linear infinite; 
+  -ms-animation: avatar_turn_around 1s linear infinite; 
+  animation: avatar_turn_around 1s linear infinite; 
+}
+
 /* 背景宇宙星光  */
 #universe{
     display: block;
@@ -3173,6 +3182,7 @@ h1.page-title + .tag-cloud-list {
   overflow-y: overlay;
   margin: 0 -24px;
   max-height: calc(100vh - 120px);
+  background: transparent;
 }
 @media screen and (max-width: 900px) {
   #aside-content #card-toc .toc-content {
@@ -3224,7 +3234,7 @@ h1.page-title + .tag-cloud-list {
   color: #49b1f5;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: #00c4b6;
+  background: transparent;
   color: #fff;
 }
 #aside-content :only-child > .card-widget {

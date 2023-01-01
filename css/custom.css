@@ -69,13 +69,13 @@
   text-shadow: 0 0 2px rgb(0, 0, 255) !important;
 }
 
-#article-container ol li:hover:before {
+/* #article-container ol li:hover:before {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg)
-}
+} */
 
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content>.card-widget.card-info {
