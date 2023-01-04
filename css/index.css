@@ -472,6 +472,8 @@ div#archive {
   z-index: -1;
 }
 
+
+/* 图标大小 */
 svg.icon {
   width: 1.28em;
   height: 1.28em;
