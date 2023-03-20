@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>sqlStudy</title>
+      <title>数据库练习</title>
       <link href="/blog/2023/03/21/21-sql-test01/"/>
       <url>/blog/2023/03/21/21-sql-test01/</url>
       
@@ -15,44 +15,6 @@
         <tags>
             
             <tag> sqlStudy </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>开学考试</title>
-      <link href="/blog/2023/02/11/11-test/"/>
-      <url>/blog/2023/02/11/11-test/</url>
-      
-        <content type="html"><![CDATA[<hr><h2 id="考试日期"><a href="#考试日期" class="headerlink" title="考试日期"></a>考试日期</h2><h3 id="已定"><a href="#已定" class="headerlink" title="已定"></a>已定</h3><ol><li>物理 2月18日 14:00 - 16:00</li><li>英语 2月19日 14:00 - 16:00</li><li>概率论 2月20日 14:00 - 16:00</li><li>毛概 2月21日 14:00 - 16:00</li><li>模电 2月22日 19:00 - 21:00</li><li>数电 2月23日 下午</li><li>数据结构 2月24日 14:00 - 16:00</li></ol><h3 id="待定"><a href="#待定" class="headerlink" title="待定"></a>待定</h3>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> diary </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>医院</title>
-      <link href="/blog/2023/01/04/04-hospital/"/>
-      <url>/blog/2023/01/04/04-hospital/</url>
-      
-        <content type="html"><![CDATA[<hr><h2 id="医院"><a href="#医院" class="headerlink" title="医院"></a>医院</h2><p>&amp;emsp;&amp;emsp;今天一大早就去医务室了.那个医生开口就说,可怜的小家伙,给他挂点水吧,把我吓死了.不过好在后来没有打点滴,开了点消毒的药就回来了,涂了之后还是有点疼,希望这个能早点好.<br>&amp;emsp;&amp;emsp;我太难了😭.</p><!--     首行缩进两字符        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &emsp;&emsp; -->]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> diary </tag>
             
         </tags>
       
